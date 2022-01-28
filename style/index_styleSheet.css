@@ -1,0 +1,242 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: proxima;
+    src: url('font/Proxima Nova Font.otf');
+}
+
+@keyframes bbchColor {
+    0% {
+        border-color: #f3e9eb;
+    }
+
+    50% {
+        border-color: #862633;
+    }
+
+    100% {
+        border-color: #f3e9eb;
+    }
+}
+
+body {
+    font-family: proxima, Arial, Helvetica, sans-serif;
+}
+
+p, b, strong, h1, h2, h3, h4, h5, h6 {
+    cursor: default;
+}
+
+.buttSty {
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0px 10px 100px #cfa8ad;
+}
+
+.buttonStyle1 {
+    border: none;
+    padding: 5px 20px;
+    background-color: #820024;
+    color: #f3e9eb;
+}
+
+    .buttonStyle1:hover {
+        background-color: #dbbec2;
+        color: #43131a;
+        box-shadow: 0px 10px 70px #cfa8ad;
+    }
+
+.buttonStyle2 {
+    border: 2px solid #820024;
+    padding: 3px 18px;
+    background-color: #dbbec2;
+    color: #43131a;
+}
+
+    .buttonStyle2:hover {
+        background-color: #820024;
+        color: #f3e9eb;
+    }
+
+.fullRowArticle {
+    background-color: #f3e9eb;
+    box-shadow: 0px 0px 10px #f3e9eb;
+}
+
+.headableRow {
+    text-align: center;
+}
+
+article .headingRow {
+    display: inline-block;
+    color: #50171f;
+}
+
+.headerNavProfile .nav-item .nav-link > i {
+    color: #820024;
+    transition: 0.25s;
+}
+
+    .headerNavProfile .nav-item .nav-link > i:hover {
+        color: #cfa8ad;
+    }
+
+    .headerNavProfile .nav-item .nav-link > i:active {
+        color: #820024;
+    }
+
+.headerNavLink .navbar-nav .nav-item > .nav-link {
+    color: #862633;
+    border: 2px solid #f3e9eb;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+    .headerNavLink .navbar-nav .nav-item > .nav-link:hover {
+        border-bottom: 2px solid #6b1e29;
+        color: #aa6770;
+    }
+
+    .headerNavLink .navbar-nav .nav-item > .nav-link:active {
+        color: gray;
+        transition: 0.1s;
+    }
+
+.firstRow {
+    background: white;
+    background-image: linear-gradient(to right, #f3e9eb, white);
+}
+
+    .firstRow section > img {
+        max-width: 1000px;
+    }
+
+    .firstRow section > strong {
+        color: #6b1e29;
+    }
+
+    .firstRow section > p {
+        color: #862633;
+    }
+
+.secondRow div {
+}
+
+    .secondRow div > img {
+        max-width: 80px;
+    }
+
+.thirdRow div .card {
+    box-shadow: 0px 0px 3px #e7d4d6;
+    //border: 2px solid #862633;
+    background-color: #f3e9eb;
+}
+
+    .thirdRow div .card .card-body h5 {
+        color: #5e1b24;
+    }
+
+    .thirdRow div .card .card-body p {
+        color: #79222e;
+    }
+
+.fourthRow section > div {
+    box-shadow: 0px 0px 5px #cfa8ad;
+}
+
+    .fourthRow section > div:hover {
+        //background-color: #f3e9eb;
+        box-shadow: none;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+.fourthRow section .card {
+    border: none;
+}
+
+    .fourthRow section .card > img {
+        max-width: 200px;
+        padding-top: 30px;
+    }
+
+    .fourthRow section .card .card-body h5 {
+        margin-bottom: 15px;
+        color: #79222e;
+    }
+
+        .fourthRow section .card .card-body h5:hover {
+            color: #b67d85;
+            cursor: grab;
+            transition: 0.15s;
+        }
+
+    .fourthRow section .card .card-body p {
+        font-size: large;
+        color: #360f14;
+        font-weight: bolder;
+    }
+
+    .fourthRow section .card .card-body i {
+        color: #360f14;
+    }
+
+.fifthRow {
+    color: #5e1b24;
+}
+
+    .fifthRow strong {
+        color: #50171f;
+    }
+
+.footerLink {
+}
+
+    .footerLink img {
+        max-width: 200px;
+    }
+
+    .footerLink p {
+        color: #6b1e29;
+        border-bottom: 1px solid #E2D7C8;
+        padding: 5px;
+        padding-left: 10px;
+    }
+
+    .footerLink > a {
+        text-decoration: none;
+        color: #820024;
+        display: block;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        border-left: 2px solid white;
+        transition: 0.25s;
+    }
+
+        .footerLink > a:hover {
+            border-left: 2px solid #AC8450;
+            color: gray;
+        }
+
+.finishBar p {
+    color: #a5a5a5;
+}
+
+.finishBar .policyBar > a {
+    color: #a1a1a1;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: 0.25s;
+}
+
+    .finishBar .policyBar > a:hover {
+        color: #820024;
+        transition: 0.35s;
+    }
+
+    .finishBar .policyBar > a:active {
+        color: gray;
+    }
